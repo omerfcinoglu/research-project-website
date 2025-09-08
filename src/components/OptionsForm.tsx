@@ -1,4 +1,3 @@
-// src/components/OptionsForm.tsx
 import { FC, ChangeEvent, FormEvent, useState } from 'react'
 import {
     Input,
@@ -9,7 +8,6 @@ import {
     PopoverTrigger,
     PopoverContent,
 } from '@heroui/react'
-import images from '@/constants/images'
 
 interface Option {
     key: string

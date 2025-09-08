@@ -7,8 +7,6 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
-import { useEffect } from "react";
-import { Divider } from "@heroui/react";
 
 export const GalleryCardById = () => {
     const { id } = useParams();
