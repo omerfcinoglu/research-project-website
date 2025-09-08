@@ -7,6 +7,8 @@ import 'lightgallery/css/lg-zoom.css';
 import 'lightgallery/css/lg-thumbnail.css';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
+import { useEffect } from "react";
+import { Divider } from "@heroui/react";
 
 export const GalleryCardById = () => {
     const { id } = useParams();
@@ -40,7 +42,7 @@ export const GalleryCardById = () => {
                             data-sub-html={`<h4>${img.alt}</h4>`}
                         >
                             <img
-                                className="img-responsive"
+                                className="img-responsive mb-10"
                                 src={img.src}
                                 alt={img.alt}
                             />
