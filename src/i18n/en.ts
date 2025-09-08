@@ -11,7 +11,6 @@ export const enTexts = {
     { label: "Video Submission", href: "/videoRequest" },
     { label: "Publications", href: "/publication" },
     { label: "Gallery", href: "/gallery" },
-    { label: "Gallery - 2", href: "/gallery2" },
   ],
   home: {
     project_title: "Research Project Showcase",
