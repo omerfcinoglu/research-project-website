@@ -1,6 +1,5 @@
 import React from "react";
-import { Avatar, Link } from "@heroui/react";
-import { images } from "@/constants/constantProvider";
+import { Link } from "@heroui/react";
 
 const Footer: React.FC = () => {
   return (
@@ -9,12 +8,12 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           {/* Left: Logo & Organization */}
           <div className="flex flex-col items-center gap-2">
-            <Avatar
+            {/* <Avatar
               as="button"
               className="transition-transform w-20 h-20"
               name="logo"
               src={images.header_logo}
-            />
+            /> */}
             <div className="text-center">
               <p className="text-sm text-zinc-400">Example University</p>
               <p className="text-sm text-zinc-400">Faculty of Engineering</p>
