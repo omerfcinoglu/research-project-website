@@ -43,7 +43,7 @@ export const OptionsForm: FC<Props> = ({
             <Input
                 label="Email"
                 name="user_email"
-                placeholder="Email adresinizi girin"
+                placeholder="Enter your email"
                 value={email}
                 onChange={onEmailChange}
                 className="mb-4"
@@ -81,9 +81,9 @@ export const OptionsForm: FC<Props> = ({
                                         onMouseLeave={() => setOpenKey(null)}
                                     >
                                         <div className="p-2 text-lg font-bold">{opt.label}</div>
-                                        <div className="p-2 text-sm font-medium">Seçenek ile ilgili açıklama buraya gelecek.</div>
+                                        <div className="p-2 text-sm font-medium">Details will be here</div>
                                         <img
-                                            src={images.demoGif}
+                                            src="https://cataas.com/cat"
                                             alt={opt.label}
                                             className="p-2 w-full h-auto object-cover"
                                         />
@@ -97,7 +97,7 @@ export const OptionsForm: FC<Props> = ({
 
             <div className="flex flex-row gap-4 justify-center items-center">
                 <Button type="submit" variant="solid" color="primary" disabled={disabled}>
-                    Gönder
+                    Submit
                 </Button>
             </div>
         </form>

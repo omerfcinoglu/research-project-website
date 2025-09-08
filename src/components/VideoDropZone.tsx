@@ -39,7 +39,7 @@ export function VideoDropZone({
                     className="w-full aspect-video rounded-lg object-cover"
                 />
                 <Button variant="flat" color="danger" onPress={onFileRemoved}>
-                    Videoyu Kaldır
+                    Remove Video
                 </Button>
             </div>
         )
@@ -53,9 +53,9 @@ export function VideoDropZone({
             onClick={() => fileInputRef.current?.click()}
         >
             <AiOutlineCloudUpload size={48} className="text-gray-400 mb-4" />
-            <p className="text-gray-600 mb-6">Videonuzu buraya sürükleyip bırakın</p>
+            <p className="text-gray-600 mb-6">Drag and drop your video here</p>
             <Button variant="flat" onPress={() => fileInputRef.current?.click()}>
-                Video Yükle
+                Upload Video
             </Button>
             <input
                 ref={fileInputRef}

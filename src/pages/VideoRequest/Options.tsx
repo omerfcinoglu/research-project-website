@@ -1,27 +1,27 @@
 export const options = [
     {
         key: 'path',
-        label: 'Path Hesaplama',
-        desc: 'Video kırpma işlemi yapılır.',
+        label: 'Path Extraction',
+        desc: 'Basic trimming and path extraction from the uploaded video.',
     },
     {
         key: 'od',
-        label: 'O/D Matrisi',
-        desc: 'Parlaklık kontrolü eklenir.',
+        label: 'Origin–Destination Matrix',
+        desc: 'Generates a simplified O/D matrix for demonstration purposes.',
     },
     {
-        key: 'hizSicaklik',
-        label: 'Hız Sıcaklık Haritası',
-        desc: 'Renk dengesi düzenlenir.',
+        key: 'speedHeatmap',
+        label: 'Speed Heatmap',
+        desc: 'Produces a mock speed heatmap overlay (demo output).',
     },
     {
-        key: 'yogunluk',
-        label: 'Yoğunluk Sıcaklık Haritası',
-        desc: 'Filtre uygulanır.',
+        key: 'densityHeatmap',
+        label: 'Density Heatmap',
+        desc: 'Creates a mock density heatmap for illustrative analysis.',
     },
     {
-        key: 'nesne',
-        label: 'Nesne Sayma',
-        desc: 'Nesne algılama ve sayma yapılır.',
+        key: 'objectCount',
+        label: 'Object Counting',
+        desc: 'Runs a dummy object counting pass (no real detection).',
     },
-];
+]
